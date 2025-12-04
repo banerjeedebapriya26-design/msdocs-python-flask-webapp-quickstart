@@ -34,5 +34,6 @@ jobs:
       with:
         app-name: demo-webapp-21893
         slot-name: webapp-slot1
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_496B45F47B6A4AC697582FCDFBD39478 }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+
 
